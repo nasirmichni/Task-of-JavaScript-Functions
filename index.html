@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>JavaScript Functions </title>
+</head>
+<body>
+    <div class="container">
+        <h2 style="text-align: center;">JavaScript Programming Task</h2>
+        <div class="input-group">
+            <label for="palindromeInput">Palindrome Input:</label>
+            <input type="text" id="palindromeInput">
+            <br>
+        </div>
+        <button onclick="checkPalindrome()">Check Palindrome</button>
+        <div class="output" id="palindromeOutput"></div>
+        <br>
+
+        <div class="input-group">
+            <label for="numbersInput">Numbers Input (comma-separated):</label>
+            <input type="text" id="numbersInput">
+            
+        </div>
+        <button onclick="findMinMax()">Find Maximum and Minimum Numbers</button>
+        <div class="output" id="minMaxOutput"></div>
+        <br>
+        <br>
+
+        <div class="input-group">
+            <label for="missingInput">Missing Numbers Input (comma-separated):</label>
+            <input type="text" id="missingInput">
+            <br>
+        </div>
+        <button onclick="identifyMissingNumbers()">Identify Missing Numbers</button>
+        <div class="output" id="missingOutput"></div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
