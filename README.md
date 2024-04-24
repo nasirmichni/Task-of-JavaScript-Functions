@@ -33,3 +33,4 @@ To use these functions in your project:
    - `minMaxOutput`: Output field for displaying minimum and maximum numbers.
    - `missingInput`: Input field for identifying missing numbers.
    - `missingOutput`: Output field for displaying missing numbers.
+visit:https://nasirmichni.github.io/Task-of-JavaScript-Functions/
